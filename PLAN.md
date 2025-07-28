@@ -74,6 +74,20 @@ Convert a carburetor-equipped vehicle to electronic fuel injection (EFI) using a
 
 ---
 
+## ESP32 EFI Retrofit – Feature Checklist
+
+- [x] EFI control logic: MAP, O2/Lambda, RPM from points, PWM injector
+- [x] 7" RA8875 TFT dashboard: gauges, warnings, live data
+- [x] Demo/fallback animation for bench testing
+- [ ] Wi-Fi, Bluetooth, OTA, remote tuning (expandable)
+- [x] All pins and hardware mapped in code and HOWTO
+- [x] Safety notes included
+- [x] **GPS speedometer as optional gauge on the display** ✅
+
+---
+
+**All main features from previous requirements are addressed in the codebase.**
+
 ## 🏁 Goal
 
 An affordable, open-source, ESP32-powered EFI retrofit system for classic carbureted vehicles, with clear instructions and minimal mechanical changes. 
